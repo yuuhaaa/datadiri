@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            max-width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Profile Diri</h1>
+
+        <table>
+            <tr>
+                <th>Informasi</th>
+                <th>Detail</th>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td>Yuha Safira</td>
+            </tr>
+            <tr>
+                <td>Usia</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>waduhwaduh@gmail.com</td>
+            </tr>
+        </table>
+
+
+        <h2>Foto Profil</h2>
+        <img src="potoyuha.jpg" alt="Profil Yuha">
+
+        <h2>Video Perkenalan</h2>
+        <video controls>
+            <source src="videooo.mp4" type="video/mp4">
+            Browser Anda tidak mendukung pemutaran video.
+        </video>
+
+        <h2>Kontak Saya</h2>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+
+
+        <h2>Media Sosial</h2>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a><br>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    </div>
+</body>
+</html>
